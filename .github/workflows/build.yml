@@ -5,12 +5,16 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  packages: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: crackedngineer/code-ur-cv@v0.0.7
+      - uses: crackedngineer/code-ur-cv@v0.0.8
         with:
           out-dir: "output"
           file-name: "config.yml"
