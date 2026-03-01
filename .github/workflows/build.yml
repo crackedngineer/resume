@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: crackedngineer/code-ur-cv@latest
+      - uses: crackedngineer/code-ur-cv@v0.0.2
         with:
           out-dir: "output"
           file-name: "config.yml"
