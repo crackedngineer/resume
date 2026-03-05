@@ -1,6 +1,3 @@
-template: minimalist
-filename: "Subhomoy_Roy_Choudhury_SE2_4YoE.pdf"
-
 basic_details:
   name: Subhomoy Roy Choudhury
   title: Software Engineer
@@ -21,13 +18,14 @@ education:
     location: West Bengal, India
     degree: Bachelor of Technology in Electronics and Communication
     gpa: "9.34/10.0"
-    duration: "Aug 2018 -- July 2022"
+    year: 2022
 
 work:
   - company: Mott MacDonald
     location: Bangalore, India
     role: Digital Engineer
-    duration: "September 2024 -- Present"
+    start: September 2024
+    end: Present
     achievements:
       - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure.
       - Built a Kubernetes operator in Golang to automate project provisioning and namespace lifecycle management.
@@ -44,7 +42,8 @@ work:
   - company: Fynd
     location: Bangalore, India
     role: Software Development Engineer 1
-    duration: "July 2022 -- September 2024"
+    duration: July 2022
+    end: September 2024
     achievements:
       - Designed and maintained scalable REST APIs powering the Core Catalog Service for JioMart Partners (B2B).
       - Built RBAC-based authentication and authorization systems to enforce secure access control.
@@ -63,7 +62,8 @@ work:
 projects:
   - name: iLoveGithub
     link: "https://github.com/crackedngineer/iLoveGithub"
-    duration: "May 2025 -- Present"
+    start: May 2025
+    end: Present
     description:
       - Architected scalable backend services in Python to transform GitHub repositories into AI-powered utilities.
       - Designed RESTful APIs with authentication and containerized deployments using Docker.
@@ -77,7 +77,8 @@ projects:
 
   - name: linkplant
     link: "https://github.com/crackedngineer/linkplant"
-    duration: "November 2025 -- Present"
+    start: November 2025
+    end: Present
     description:
       - Built a GitHub Action to automate static site generation and deployment using Python and Jinja.
       - Designed reusable CI/CD workflows enabling zero-infrastructure hosting.
@@ -88,7 +89,8 @@ projects:
 
   - name: Proxmox Homelab
     link: "https://github.com/crackedngineer/homelab-infrastructure"
-    duration: "May 2023 -- Present"
+    start: May 2023
+    end: Present
     description:
       - Designed and managed Kubernetes clusters using Terraform and GitOps (ArgoCD).
       - Implemented containerized workloads with secure networking and automation-first infrastructure practices.
@@ -100,26 +102,26 @@ projects:
       - Tailscale
 
 skills:
-  - name: Backend
-    featured_skills:
+  - category: Backend
+    featured:
       - Python
       - Golang
       - NodeJS
       - REST APIs
       - Microservices
-  - name: Databases
-    featured_skills:
+  - category: Databases
+    featured:
       - PostgreSQL
       - MongoDB
       - Redis
-  - name: Infrastructure
-    featured_skills:
+  - category: Infrastructure
+    featured:
       - Kubernetes
       - Docker
       - Terraform
       - Azure
       - CI/CD
       - GitOps
-  - name: Messaging
-    featured_skills:
+  - category: Messaging
+    featured:
       - Apache Kafka
