@@ -16,7 +16,6 @@ jobs:
     steps:
       - uses: crackedngineer/codeurcv-action@v0.3.4
         with:
-          config-path: config.yml
+          config-path: Subhomoy_Roy_Choudhury_CV.yml
           out-dir: output
-          template: minimalist
-          filename: Subhomoy_Roy_Choudhury_SE2_4YoE
+          filename: Subhomoy_Roy_Choudhury_4YoE_CV
