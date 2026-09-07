@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: crackedngineer/codeurcv-action@v0.3.5
+      - uses: crackedngineer/rendercv-action@v0.3.5
         with:
           config-path: Subhomoy_Roy_Choudhury_CV.yaml
           out-dir: output
