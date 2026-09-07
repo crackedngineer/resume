@@ -195,19 +195,19 @@ Backend-focused Software Engineer with 4+ years of experience designing and ship
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/crackedngineer/linkplant")[linkplant]]
+    #strong[#link("https://github.com/crackedngineer/rendercv-action")[rendercv-action]]
 
   ],
   [
-    Nov 2025 – present
+    Sept 2026 – present
 
   ],
   main-column-second-row: [
-    - Built a GitHub Action to automate static site generation and deployment using Python and Jinja.
+    - Built a GitHub Action wrapping the RenderCV CLI to automatically render CV YAML configs into PDF within CI\/CD pipelines.
 
-    - Designed reusable CI\/CD workflows enabling zero-infrastructure hosting.
+    - Enabled zero-touch resume builds with versioned PDF artifacts on every push, packaged for reuse across repositories.
 
-    - #strong[Technologies:] Python, Jinja, GitHub Actions
+    - #strong[Technologies:] Python, RenderCV, GitHub Actions, CI\/CD
 
   ],
 )
