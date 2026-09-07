@@ -59,13 +59,13 @@ cv:
           - Designed RESTful APIs with authentication and containerized deployments using Docker.
           - Implemented CI/CD pipelines and automated release workflows for production-grade delivery.
           - "**Technologies:** Python, NextJS, Supabase, Docker, CI/CD"
-      - name: "[linkplant](https://github.com/crackedngineer/linkplant)"
-        start_date: 2025-11
+      - name: "[rendercv-action](https://github.com/crackedngineer/rendercv-action)"
+        start_date: 2026-09
         end_date: present
         highlights:
-          - Built a GitHub Action to automate static site generation and deployment using Python and Jinja.
-          - Designed reusable CI/CD workflows enabling zero-infrastructure hosting.
-          - "**Technologies:** Python, Jinja, GitHub Actions"
+          - Built a GitHub Action wrapping the RenderCV CLI to automatically render CV YAML configs into PDF within CI/CD pipelines.
+          - Enabled zero-touch resume builds with versioned PDF artifacts on every push, packaged for reuse across repositories.
+          - "**Technologies:** Python, RenderCV, GitHub Actions, CI/CD"
       - name: "[Proxmox Homelab](https://github.com/crackedngineer/homelab-infrastructure)"
         start_date: 2023-05
         end_date: present
