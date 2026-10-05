@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Subhomoy Roy Choudhury
+  headline: DevOps Engineer
+  location: Bangalore, India
+  email: subhomoyrchoudhury@gmail.com
+  phone: "+91 9163855365"
+  social_networks:
+    - network: GitHub
+      username: crackedngineer
+    - network: LinkedIn
+      username: subhomoy-roy-choudhury
+  sections:
+    summary:
+      - DevOps Engineer with 4+ years automating CI/CD pipelines and release workflows (Jenkins,
+        ArgoCD), provisioning infrastructure-as-code (Terraform, Ansible), and managing
+        containerized cloud environments (Docker, Kubernetes, Helm, AWS, Azure) in production.
+        Builds cloud-based monitoring, alerting, and visibility using Elasticsearch and messaging
+        systems (Kafka, Redis). Strong Linux, Python, and Bash scripting background with
+        Git/Bitbucket version control; coaches and mentors team members while collaborating
+        cross-functionally in Agile environments.
+    education:
+      - institution: Institute of Engineering and Management, Kolkata
+        area: Electronics and Communication
+        degree: BTech
+        location: West Bengal, India
+        date: 2022
+        highlights:
+          - "GPA: 9.34/10.0"
+    experience:
+      - company: Mott MacDonald
+        position: Digital Engineer
+        location: Bangalore, India
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure on Linux.
+          - Built a Kubernetes operator in Golang with Helm to automate project provisioning and namespace lifecycle management.
+          - Implemented automated build, test, and deployment pipelines with Jenkins and ArgoCD (GitOps), automating ServiceNow-to-Plural-to-Kubernetes delivery and cutting request SLA by 80%.
+          - Automated infrastructure provisioning using Terraform and Ansible, and managed cloud configuration across Azure (Blob Storage, PostgresDB) and AWS.
+          - Built cloud-based monitoring, alerting, and visibility using Elasticsearch, and coached and mentored team members and technical staff on DevOps and Kubernetes best practices.
+          - "**Technologies:** Python, Golang, Kubernetes, Helm, Docker, Terraform, Ansible, Jenkins, ArgoCD, Azure, AWS, Elasticsearch, Linux, Bash, Git, Bitbucket, PostgreSQL"
+      - company: Fynd
+        position: Software Development Engineer 1
+        location: Bangalore, India
+        start_date: 2022-07
+        end_date: 2024-09
+        highlights:
+          - Designed and maintained scalable REST APIs powering the Core Catalog Service for JioMart Partners (B2B).
+          - Built RBAC-based authentication and authorization systems to enforce secure access control.
+          - Developed high-throughput product ingestion pipelines using Apache Kafka for low-latency bulk imports.
+          - Optimized backend queries and Redis caching layers, improving system performance by 30%.
+          - Wrote Shell/Bash automation scripts and deployed services on Linux to support CI/CD delivery.
+          - Collaborated cross-functionally with product and frontend teams to ship production-ready features.
+          - "**Technologies:** Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx, Linux, Bash, Git"
+    projects:
+      - name: "[rendercv-action](https://github.com/crackedngineer/rendercv-action)"
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - Built a GitHub Action wrapping the RenderCV CLI to automatically render CV YAML configs into PDF within CI/CD pipelines.
+          - Enabled zero-touch resume builds with versioned PDF artifacts on every push, packaged for reuse across repositories.
+          - "**Technologies:** Python, RenderCV, GitHub Actions, CI/CD"
+      - name: "[Proxmox Homelab](https://github.com/crackedngineer/homelab-infrastructure)"
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - Designed and managed Kubernetes clusters with Terraform, Ansible, ArgoCD (GitOps), and Helm for app packaging.
+          - Implemented containerized workloads with secure networking and automation-first infrastructure practices on Linux.
+          - "**Technologies:** Terraform, Ansible, Kubernetes, Helm, Docker, ArgoCD, Linux, Tailscale"
+    skills:
+      - label: Cloud & Infrastructure
+        details: AWS, Azure, Kubernetes, Helm, Docker, Terraform, Ansible, Linux
+      - label: Automation & Delivery
+        details: Jenkins, ArgoCD, GitOps, CI/CD, Shell/Bash Scripting, Python
+      - label: Monitoring & Visibility
+        details: Elasticsearch, Cloud-based Monitoring and Alerting
+      - label: Databases & Messaging
+        details: PostgreSQL, MongoDB, Redis, Apache Kafka
+      - label: Version Control
+        details: Git, GitHub, Bitbucket
+      - label: Methodologies
+        details: Agile, Infrastructure as Code, Team Mentoring
+
+design:
+  theme: engineeringresumes
+  page:
+    top_margin: 0.45in
+    bottom_margin: 0.4in
+    left_margin: 0.55in
+    right_margin: 0.55in
+    show_top_note: false
+  header:
+    space_below_name: 0.28cm
+    space_below_headline: 0.28cm
+    space_below_connections: 0.28cm
+    connections:
+      phone_number_format: international
+  typography:
+    line_spacing: 0.47em
+    font_size:
+      body: 9.6pt
+  section_titles:
+    space_above: 0.28cm
+    space_below: 0.14cm
+  sections:
+    space_between_regular_entries: 0.28cm
+    space_between_text_based_entries: 0.08cm
+  entries:
+    highlights:
+      space_above: 0.05cm
+      space_between_items: 0.05cm

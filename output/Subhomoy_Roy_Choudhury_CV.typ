@@ -6,12 +6,12 @@
   name: "Subhomoy Roy Choudhury",
   title: "Subhomoy Roy Choudhury - CV",
   footer: context { [#emph[Subhomoy Roy Choudhury -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Sept 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.5in,
-  page-bottom-margin: 0.5in,
+  page-top-margin: 0.45in,
+  page-bottom-margin: 0.4in,
   page-left-margin: 0.55in,
   page-right-margin: 0.55in,
   page-show-footer: false,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.32cm,
-  header-space-below-headline: 0.32cm,
-  header-space-below-connections: 0.32cm,
+  header-space-below-name: 0.28cm,
+  header-space-below-headline: 0.28cm,
+  header-space-below-connections: 0.28cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.32cm,
-  section-titles-space-below: 0.17cm,
+  section-titles-space-above: 0.28cm,
+  section-titles-space-below: 0.14cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.1cm,
-  sections-space-between-regular-entries: 0.32cm,
+  sections-space-between-text-based-entries: 0.08cm,
+  sections-space-between-regular-entries: 0.28cm,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -75,20 +75,20 @@
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.06cm,
-  entries-highlights-space-between-items: 0.06cm,
+  entries-highlights-space-above: 0.05cm,
+  entries-highlights-space-between-items: 0.05cm,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 9,
-    day: 7,
+    month: 10,
+    day: 5,
   ),
 )
 
 
 = Subhomoy Roy Choudhury
 
-  #headline([Software Engineer])
+  #headline([DevOps Engineer])
 
 #connections(
   [Bangalore, India],
@@ -101,7 +101,7 @@
 
 == Summary
 
-Backend-focused Software Engineer with 4+ years of experience designing and shipping low-latency, high-availability APIs and distributed systems. Strong expertise in Python and Golang, building scalable backend services, event-driven pipelines, and production- grade cloud-native systems. Proven ability to own features end-to-end in fast-paced environments.
+DevOps Engineer with 4+ years automating CI\/CD pipelines and release workflows (Jenkins, ArgoCD), provisioning infrastructure-as-code (Terraform, Ansible), and managing containerized cloud environments (Docker, Kubernetes, Helm, AWS, Azure) in production. Builds cloud-based monitoring, alerting, and visibility using Elasticsearch and messaging systems (Kafka, Redis). Strong Linux, Python, and Bash scripting background with Git\/Bitbucket version control; coaches and mentors team members while collaborating cross-functionally in Agile environments.
 
 == Education
 
@@ -132,15 +132,17 @@ Backend-focused Software Engineer with 4+ years of experience designing and ship
 
   ],
   main-column-second-row: [
-    - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure.
+    - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure on Linux.
 
-    - Built a Kubernetes operator in Golang to automate project provisioning and namespace lifecycle management.
+    - Built a Kubernetes operator in Golang with Helm to automate project provisioning and namespace lifecycle management.
 
-    - Engineered end-to-end automation from ServiceNow to Plural to Kubernetes, reducing request SLA by 80\%.
+    - Implemented automated build, test, and deployment pipelines with Jenkins and ArgoCD (GitOps), automating ServiceNow-to-Plural-to-Kubernetes delivery and cutting request SLA by 80\%.
 
-    - Provisioned infrastructure using Terraform and managed Azure services including Blob Storage and PostgresDB.
+    - Automated infrastructure provisioning using Terraform and Ansible, and managed cloud configuration across Azure (Blob Storage, PostgresDB) and AWS.
 
-    - #strong[Technologies:] Python, Golang, Kubernetes, Terraform, Azure, PostgreSQL
+    - Built cloud-based monitoring, alerting, and visibility using Elasticsearch, and coached and mentored team members and technical staff on DevOps and Kubernetes best practices.
+
+    - #strong[Technologies:] Python, Golang, Kubernetes, Helm, Docker, Terraform, Ansible, Jenkins, ArgoCD, Azure, AWS, Elasticsearch, Linux, Bash, Git, Bitbucket, PostgreSQL
 
   ],
 )
@@ -161,37 +163,18 @@ Backend-focused Software Engineer with 4+ years of experience designing and ship
 
     - Developed high-throughput product ingestion pipelines using Apache Kafka for low-latency bulk imports.
 
-    - Optimized backend queries and caching layers (Redis), improving system performance by 30\%.
+    - Optimized backend queries and Redis caching layers, improving system performance by 30\%.
+
+    - Wrote Shell\/Bash automation scripts and deployed services on Linux to support CI\/CD delivery.
 
     - Collaborated cross-functionally with product and frontend teams to ship production-ready features.
 
-    - #strong[Technologies:] Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx
+    - #strong[Technologies:] Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx, Linux, Bash, Git
 
   ],
 )
 
 == Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/crackedngineer/iLoveGithub")[iLoveGithub]]
-
-  ],
-  [
-    May 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Architected scalable backend services in Python to transform GitHub repositories into AI-powered utilities.
-
-    - Designed RESTful APIs with authentication and containerized deployments using Docker.
-
-    - Implemented CI\/CD pipelines and automated release workflows for production-grade delivery.
-
-    - #strong[Technologies:] Python, NextJS, Supabase, Docker, CI\/CD
-
-  ],
-)
 
 #regular-entry(
   [
@@ -222,21 +205,25 @@ Backend-focused Software Engineer with 4+ years of experience designing and ship
 
   ],
   main-column-second-row: [
-    - Designed and managed Kubernetes clusters using Terraform and GitOps (ArgoCD).
+    - Designed and managed Kubernetes clusters with Terraform, Ansible, ArgoCD (GitOps), and Helm for app packaging.
 
-    - Implemented containerized workloads with secure networking and automation-first infrastructure practices.
+    - Implemented containerized workloads with secure networking and automation-first infrastructure practices on Linux.
 
-    - #strong[Technologies:] Terraform, Kubernetes, Docker, ArgoCD, Tailscale
+    - #strong[Technologies:] Terraform, Ansible, Kubernetes, Helm, Docker, ArgoCD, Linux, Tailscale
 
   ],
 )
 
 == Skills
 
-#strong[Backend:] Python, Golang, NodeJS, REST APIs, Microservices
+#strong[Cloud & Infrastructure:] AWS, Azure, Kubernetes, Helm, Docker, Terraform, Ansible, Linux
 
-#strong[Databases:] PostgreSQL, MongoDB, Redis
+#strong[Automation & Delivery:] Jenkins, ArgoCD, GitOps, CI\/CD, Shell\/Bash Scripting, Python
 
-#strong[Infrastructure:] Kubernetes, Docker, Terraform, Azure, CI\/CD, GitOps
+#strong[Monitoring & Visibility:] Elasticsearch, Cloud-based Monitoring and Alerting
 
-#strong[Messaging:] Apache Kafka
+#strong[Databases & Messaging:] PostgreSQL, MongoDB, Redis, Apache Kafka
+
+#strong[Version Control:] Git, GitHub, Bitbucket
+
+#strong[Methodologies:] Agile, Infrastructure as Code, Team Mentoring

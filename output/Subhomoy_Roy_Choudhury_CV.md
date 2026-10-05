@@ -8,7 +8,7 @@
 
 
 # Summary
-Backend-focused Software Engineer with 4+ years of experience designing and shipping low-latency, high-availability APIs and distributed systems. Strong expertise in Python and Golang, building scalable backend services, event-driven pipelines, and production- grade cloud-native systems. Proven ability to own features end-to-end in fast-paced environments.
+DevOps Engineer with 4+ years automating CI/CD pipelines and release workflows (Jenkins, ArgoCD), provisioning infrastructure-as-code (Terraform, Ansible), and managing containerized cloud environments (Docker, Kubernetes, Helm, AWS, Azure) in production. Builds cloud-based monitoring, alerting, and visibility using Elasticsearch and messaging systems (Kafka, Redis). Strong Linux, Python, and Bash scripting background with Git/Bitbucket version control; coaches and mentors team members while collaborating cross-functionally in Agile environments.
 
 # Education
 ## **Institute of Engineering and Management, Kolkata**, BTech in Electronics and Communication -- West Bengal, India
@@ -23,15 +23,17 @@ Backend-focused Software Engineer with 4+ years of experience designing and ship
 
 Sept 2024 – present
 
-- Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure.
+- Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure on Linux.
 
-- Built a Kubernetes operator in Golang to automate project provisioning and namespace lifecycle management.
+- Built a Kubernetes operator in Golang with Helm to automate project provisioning and namespace lifecycle management.
 
-- Engineered end-to-end automation from ServiceNow to Plural to Kubernetes, reducing request SLA by 80%.
+- Implemented automated build, test, and deployment pipelines with Jenkins and ArgoCD (GitOps), automating ServiceNow-to-Plural-to-Kubernetes delivery and cutting request SLA by 80%.
 
-- Provisioned infrastructure using Terraform and managed Azure services including Blob Storage and PostgresDB.
+- Automated infrastructure provisioning using Terraform and Ansible, and managed cloud configuration across Azure (Blob Storage, PostgresDB) and AWS.
 
-- **Technologies:** Python, Golang, Kubernetes, Terraform, Azure, PostgreSQL
+- Built cloud-based monitoring, alerting, and visibility using Elasticsearch, and coached and mentored team members and technical staff on DevOps and Kubernetes best practices.
+
+- **Technologies:** Python, Golang, Kubernetes, Helm, Docker, Terraform, Ansible, Jenkins, ArgoCD, Azure, AWS, Elasticsearch, Linux, Bash, Git, Bitbucket, PostgreSQL
 
 
 
@@ -45,29 +47,17 @@ July 2022 – Sept 2024
 
 - Developed high-throughput product ingestion pipelines using Apache Kafka for low-latency bulk imports.
 
-- Optimized backend queries and caching layers (Redis), improving system performance by 30%.
+- Optimized backend queries and Redis caching layers, improving system performance by 30%.
+
+- Wrote Shell/Bash automation scripts and deployed services on Linux to support CI/CD delivery.
 
 - Collaborated cross-functionally with product and frontend teams to ship production-ready features.
 
-- **Technologies:** Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx
+- **Technologies:** Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx, Linux, Bash, Git
 
 
 
 # Projects
-## **[iLoveGithub](https://github.com/crackedngineer/iLoveGithub)**
-
-May 2025 – present
-
-- Architected scalable backend services in Python to transform GitHub repositories into AI-powered utilities.
-
-- Designed RESTful APIs with authentication and containerized deployments using Docker.
-
-- Implemented CI/CD pipelines and automated release workflows for production-grade delivery.
-
-- **Technologies:** Python, NextJS, Supabase, Docker, CI/CD
-
-
-
 ## **[rendercv-action](https://github.com/crackedngineer/rendercv-action)**
 
 Sept 2026 – present
@@ -84,19 +74,23 @@ Sept 2026 – present
 
 May 2023 – present
 
-- Designed and managed Kubernetes clusters using Terraform and GitOps (ArgoCD).
+- Designed and managed Kubernetes clusters with Terraform, Ansible, ArgoCD (GitOps), and Helm for app packaging.
 
-- Implemented containerized workloads with secure networking and automation-first infrastructure practices.
+- Implemented containerized workloads with secure networking and automation-first infrastructure practices on Linux.
 
-- **Technologies:** Terraform, Kubernetes, Docker, ArgoCD, Tailscale
+- **Technologies:** Terraform, Ansible, Kubernetes, Helm, Docker, ArgoCD, Linux, Tailscale
 
 
 
 # Skills
-**Backend:** Python, Golang, NodeJS, REST APIs, Microservices
+**Cloud & Infrastructure:** AWS, Azure, Kubernetes, Helm, Docker, Terraform, Ansible, Linux
 
-**Databases:** PostgreSQL, MongoDB, Redis
+**Automation & Delivery:** Jenkins, ArgoCD, GitOps, CI/CD, Shell/Bash Scripting, Python
 
-**Infrastructure:** Kubernetes, Docker, Terraform, Azure, CI/CD, GitOps
+**Monitoring & Visibility:** Elasticsearch, Cloud-based Monitoring and Alerting
 
-**Messaging:** Apache Kafka
+**Databases & Messaging:** PostgreSQL, MongoDB, Redis, Apache Kafka
+
+**Version Control:** Git, GitHub, Bitbucket
+
+**Methodologies:** Agile, Infrastructure as Code, Team Mentoring
