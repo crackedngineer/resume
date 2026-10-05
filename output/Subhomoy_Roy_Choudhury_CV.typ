@@ -10,8 +10,8 @@
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.45in,
-  page-bottom-margin: 0.4in,
+  page-top-margin: 0.5in,
+  page-bottom-margin: 0.5in,
   page-left-margin: 0.55in,
   page-right-margin: 0.55in,
   page-show-footer: false,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.28cm,
-  header-space-below-headline: 0.28cm,
-  header-space-below-connections: 0.28cm,
+  header-space-below-name: 0.32cm,
+  header-space-below-headline: 0.32cm,
+  header-space-below-connections: 0.32cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.28cm,
-  section-titles-space-below: 0.14cm,
+  section-titles-space-above: 0.32cm,
+  section-titles-space-below: 0.17cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.08cm,
-  sections-space-between-regular-entries: 0.28cm,
+  sections-space-between-text-based-entries: 0.1cm,
+  sections-space-between-regular-entries: 0.32cm,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -75,8 +75,8 @@
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.05cm,
-  entries-highlights-space-between-items: 0.05cm,
+  entries-highlights-space-above: 0.06cm,
+  entries-highlights-space-between-items: 0.06cm,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
@@ -88,7 +88,7 @@
 
 = Subhomoy Roy Choudhury
 
-  #headline([DevOps Engineer])
+  #headline([Software Engineer])
 
 #connections(
   [Bangalore, India],
@@ -101,7 +101,7 @@
 
 == Summary
 
-DevOps Engineer with 4+ years automating CI\/CD pipelines and release workflows (Jenkins, ArgoCD), provisioning infrastructure-as-code (Terraform, Ansible), and managing containerized cloud environments (Docker, Kubernetes, Helm, AWS, Azure) in production. Builds cloud-based monitoring, alerting, and visibility using Elasticsearch and messaging systems (Kafka, Redis). Strong Linux, Python, and Bash scripting background with Git\/Bitbucket version control; coaches and mentors team members while collaborating cross-functionally in Agile environments.
+Backend-focused Software Engineer with 4+ years of experience designing and shipping low-latency, high-availability APIs and distributed systems. Strong expertise in Python and Golang, building scalable backend services, event-driven pipelines, and production- grade cloud-native systems. Proven ability to own features end-to-end in fast-paced environments.
 
 == Education
 
@@ -132,17 +132,15 @@ DevOps Engineer with 4+ years automating CI\/CD pipelines and release workflows 
 
   ],
   main-column-second-row: [
-    - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure on Linux.
+    - Designed and maintained backend platform services supporting Kubernetes-based DevOps infrastructure.
 
-    - Built a Kubernetes operator in Golang with Helm to automate project provisioning and namespace lifecycle management.
+    - Built a Kubernetes operator in Golang to automate project provisioning and namespace lifecycle management.
 
-    - Implemented automated build, test, and deployment pipelines with Jenkins and ArgoCD (GitOps), automating ServiceNow-to-Plural-to-Kubernetes delivery and cutting request SLA by 80\%.
+    - Engineered end-to-end automation from ServiceNow to Plural to Kubernetes, reducing request SLA by 80\%.
 
-    - Automated infrastructure provisioning using Terraform and Ansible, and managed cloud configuration across Azure (Blob Storage, PostgresDB) and AWS.
+    - Provisioned infrastructure using Terraform and managed Azure services including Blob Storage and PostgresDB.
 
-    - Built cloud-based monitoring, alerting, and visibility using Elasticsearch, and coached and mentored team members and technical staff on DevOps and Kubernetes best practices.
-
-    - #strong[Technologies:] Python, Golang, Kubernetes, Helm, Docker, Terraform, Ansible, Jenkins, ArgoCD, Azure, AWS, Elasticsearch, Linux, Bash, Git, Bitbucket, PostgreSQL
+    - #strong[Technologies:] Python, Golang, Kubernetes, Terraform, Azure, PostgreSQL
 
   ],
 )
@@ -163,18 +161,37 @@ DevOps Engineer with 4+ years automating CI\/CD pipelines and release workflows 
 
     - Developed high-throughput product ingestion pipelines using Apache Kafka for low-latency bulk imports.
 
-    - Optimized backend queries and Redis caching layers, improving system performance by 30\%.
-
-    - Wrote Shell\/Bash automation scripts and deployed services on Linux to support CI\/CD delivery.
+    - Optimized backend queries and caching layers (Redis), improving system performance by 30\%.
 
     - Collaborated cross-functionally with product and frontend teams to ship production-ready features.
 
-    - #strong[Technologies:] Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx, Linux, Bash, Git
+    - #strong[Technologies:] Python, NodeJS, Kafka, PostgreSQL, MongoDB, Redis, Nginx
 
   ],
 )
 
 == Projects
+
+#regular-entry(
+  [
+    #strong[#link("https://github.com/crackedngineer/iLoveGithub")[iLoveGithub]]
+
+  ],
+  [
+    May 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Architected scalable backend services in Python to transform GitHub repositories into AI-powered utilities.
+
+    - Designed RESTful APIs with authentication and containerized deployments using Docker.
+
+    - Implemented CI\/CD pipelines and automated release workflows for production-grade delivery.
+
+    - #strong[Technologies:] Python, NextJS, Supabase, Docker, CI\/CD
+
+  ],
+)
 
 #regular-entry(
   [
@@ -205,25 +222,21 @@ DevOps Engineer with 4+ years automating CI\/CD pipelines and release workflows 
 
   ],
   main-column-second-row: [
-    - Designed and managed Kubernetes clusters with Terraform, Ansible, ArgoCD (GitOps), and Helm for app packaging.
+    - Designed and managed Kubernetes clusters using Terraform and GitOps (ArgoCD).
 
-    - Implemented containerized workloads with secure networking and automation-first infrastructure practices on Linux.
+    - Implemented containerized workloads with secure networking and automation-first infrastructure practices.
 
-    - #strong[Technologies:] Terraform, Ansible, Kubernetes, Helm, Docker, ArgoCD, Linux, Tailscale
+    - #strong[Technologies:] Terraform, Kubernetes, Docker, ArgoCD, Tailscale
 
   ],
 )
 
 == Skills
 
-#strong[Cloud & Infrastructure:] AWS, Azure, Kubernetes, Helm, Docker, Terraform, Ansible, Linux
+#strong[Backend:] Python, Golang, NodeJS, REST APIs, Microservices
 
-#strong[Automation & Delivery:] Jenkins, ArgoCD, GitOps, CI\/CD, Shell\/Bash Scripting, Python
+#strong[Databases:] PostgreSQL, MongoDB, Redis
 
-#strong[Monitoring & Visibility:] Elasticsearch, Cloud-based Monitoring and Alerting
+#strong[Infrastructure:] Kubernetes, Docker, Terraform, Azure, CI\/CD, GitOps
 
-#strong[Databases & Messaging:] PostgreSQL, MongoDB, Redis, Apache Kafka
-
-#strong[Version Control:] Git, GitHub, Bitbucket
-
-#strong[Methodologies:] Agile, Infrastructure as Code, Team Mentoring
+#strong[Messaging:] Apache Kafka
